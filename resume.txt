@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+
+void printResume() {
+    // Personal Information
+    std::string name = "Rohit Meher";
+    std::string address = "Baramati , Maharashtra";
+    std::string phone = "8596475236";
+    std::string email = "meherrohiy@gmail.com";
+
+    // Objective
+    std::string objective = "To obtain a challenging position in software development that allows me to utilize my skills and grow professionally.";
+
+    // Education
+    std::string education = "Bachelor IN AI, 2027";
+
+    // Experience
+    std::string experience = "Software Developer\nTech Solutions, Anytown, USA\nJune 2027 - Present\n- Developed applications using C++ and Java.\n- Collaborated with cross-functional teams to define and implement new features.\n- Improved application performance by 20%.";
+
+    // Skills
+    std::string skills = "- Programming Languages: C++, Java, Python\n- Web Technologies: HTML, CSS, JavaScript\n- Database Management: MySQL, MongoDB\n- Tools: Git, Docker, Visual Studio";
+
+    // Printing the Resume
+    std::cout << "=========================\n";
+    std::cout << "          RESUME         \n";
+    std::cout << "=========================\n";
+    std::cout << "Name: " << name << std::endl;
+    std::cout << "Address: " << address << std::endl;
+    std::cout << "Phone: " << phone << std::endl;
+    std::cout << "Email: " << email << std::endl;
+    std::cout << "\nObjective:\n" << objective << std::endl;
+    std::cout << "\nEducation:\n" << education << std::endl;
+    std::cout << "\nExperience:\n" << experience << std::endl;
+    std::cout << "\nSkills:\n" << skills << std::endl;
+    std::cout << "=========================\n";
+}
+
+int main() {
+    printResume();
+    return 0;
+}
